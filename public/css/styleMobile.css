@@ -1,0 +1,87 @@
+@media (max-width: 614px){
+
+    .ladoDireito {
+        display: none;
+    }
+
+    .logo .barrinha {
+        display: none;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    header input {
+        display: none;
+    }
+
+    .menu {
+        width: auto;
+    }
+
+    .naoMobile {
+        display: none;
+    }
+
+    .simMobile {
+        display:inherit;
+    }
+
+    .espacoDosStories {
+        align-items:initial;
+        width: 100%;
+        height: 84px;
+
+        margin-bottom: 18px;
+
+        border: none;
+        
+    }
+
+    main {
+        margin-top: 17px;
+    }
+
+    .post {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .post img {
+        width: 100%;
+        height: auto;
+    }
+
+    .roda-pePost {
+        height: auto;
+    }
+
+    .engajamento {
+        margin-top: 12px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        width: 100%;
+        height: 54px;
+
+        border-top:1px solid #DBDBDB ;
+
+        background-color: #FFFFFF;
+
+        position:sticky;
+        bottom: 0;
+        z-index: 2;
+    }
+
+    footer ion-icon {
+        font-size: 22px;
+    }
+
+}

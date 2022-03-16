@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: #FAFAFA;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 21px;
+    padding-right: 21px;
+
+    width: 100%;
+    height: 54px;
+
+    position:sticky;
+    top:0;
+    z-index: 2;
+
+    overflow: hidden;
+
+    background: #FFFFFF;
+
+    border-bottom: solid 1px #DBDBDB;
+}
+
+header .conteudoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 995px;
+    max-width: 995px;
+    height: auto;
+
+    margin: auto;
+
+}
+
+header input {
+    text-align: center;
+
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+
+    width: 215px;
+    height: 28px;
+
+    background: #FAFAFA;
+}
+
+.simMobile {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo ion-icon {
+    font-size: 22px;
+}
+
+.barrinha {
+    width: 1px;
+    height: 22px;
+
+    margin-left: 11px;
+    margin-right: 11px;
+
+    background: #DBDBDB;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 164.5px;
+}
+
+.menu ion-icon {
+    font-size: 22px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: auto;
+    margin-top: 34px;
+
+    position: relative;
+    
+}
+
+.espacoDosStories {
+    display: flex;
+    align-items: center;
+
+    width: 614px;
+    height: 118px;
+
+    margin-bottom: 24px;
+    
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+
+    overflow: hidden;
+
+    position: relative;
+   
+}
+
+.espacoDosStories ion-icon {
+    position: absolute;
+    right: 9px;
+
+    z-index: 1;
+
+    font-size: 26px;
+    color: #FFFFFF;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.7))
+}
+
+.stories {
+    display: flex;
+    flex-direction: row;
+
+    width: auto;
+    padding-left: 18px;
+
+    position: absolute;
+}
+
+.story {
+    width: 66px;
+    height: 86px;
+    margin-right: 14px;
+
+    position: relative;
+
+}
+
+.perfilStory p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 78px;
+    height: 19px;
+
+    position: absolute;
+    top: 67px;
+    right: 0;
+    left: 0;
+    
+    font-size: 12px;
+    line-height: 14px;
+
+    width: auto; 
+}
+
+
+
+.story img {
+    width: 56px;
+    height: 56px;
+
+    border-radius: 50%;
+    
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.story img.borda {
+    width: 66px;
+    height: 66px;
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.post {
+    width: 614px;
+    height: 749px;
+
+    border:none;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+
+    margin-bottom: 60px;
+
+    overflow: hidden;
+
+}
+
+.post .topoPost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 61px;
+
+    padding-left: 18.5px;
+    padding-right: 18.5px;
+
+}
+
+.post .topoPost .usuario {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.post .topoPost .usuario img{
+    width: 32px;
+    height: 32px;
+
+    margin-right: 15px;
+}
+
+.post .topoPost .usuario p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.post img {
+    width: 612px;
+    height: 612px;
+}
+
+.post .roda-pePost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 76px;
+
+    padding-bottom: 14px;
+}
+
+.post .roda-pePost .engajamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 17.75px;
+    padding-right: 17.75px;
+    margin-bottom: 8px;
+
+}
+
+.post .roda-pePost .engajamento ion-icon {
+    font-size: 22px;
+}
+
+
+.post .roda-pePost .engajamento .interacoes ion-icon {
+    margin-right: 15px;
+}
+
+.post .roda-pePost .curtidas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-left: 17.75px;
+}
+
+.post .roda-pePost .curtidas img{
+    width: 20px;
+    height: 20px;
+
+    margin-right: 5px;
+}
+
+.ladoDireito {
+    display: flex;
+    flex-direction: column;
+    align-items:initial;
+    
+    width: 293px;
+    height:max-content;
+    margin-left: 30px;
+    padding-top: 34px;
+
+    overflow: hidden;
+
+}
+
+.ladoDireito .topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    margin-bottom: 24px;
+
+}
+
+.ladoDireito .topo img{
+    width: 56px;
+    height: 56px;
+
+    margin-right: 17px;
+
+}
+
+.ladoDireito .topo p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.ladoDireito .topo p.fraco {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color:#8E8E8E;
+}
+
+.ladoDireito .sugestoes {
+    margin-bottom: 33px;
+}
+
+.ladoDireito .sugestoes div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ladoDireito .sugestoes p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.ladoDireito .sugestoes p.paraVoce {
+    color: #8E8E8E;
+}
+
+.ladoDireito .sugestoes p.verTudo {
+    color:#262626;
+}
+
+.ladoDireito .sugestoes .sugestao {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+    margin-top: 17px;
+}
+
+.ladoDireito .sugestoes .sugestao img {
+    width: 32px;
+    height: 32px;
+
+    margin-right: 11px;
+}
+
+.ladoDireito .sugestoes .sugestao .usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+}
+
+.ladoDireito .sugestoes .sugestao .usuario p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.ladoDireito .sugestoes .sugestao .usuario p.situacao{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+
+.ladoDireito .sugestoes .sugestao p.seguir{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139EF2;
+}
+
+.ladoDireito .direitosAutorais p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+
+    margin-bottom: 18px;
+}
+
+@media(max-width:935px){
+    .ladoDireito{
+        display: none;
+    }
+}
