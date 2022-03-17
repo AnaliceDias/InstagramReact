@@ -1,5 +1,9 @@
 @media (max-width: 614px){
 
+    header .naoMobile {
+        display: none;
+    }
+
     .ladoDireito {
         display: none;
     }
@@ -20,12 +24,8 @@
         width: auto;
     }
 
-    .naoMobile {
-        display: none;
-    }
-
     .simMobile {
-        display:inherit;
+        display:flex;
     }
 
     .espacoDosStories {
@@ -37,6 +37,10 @@
 
         border: none;
         
+    }
+
+    .espacoDosStories ion-icon {
+        display: none;
     }
 
     main {
@@ -64,9 +68,9 @@
 
     footer {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;  
         align-items: center;
+        
 
         width: 100%;
         height: 54px;
@@ -80,8 +84,19 @@
         z-index: 2;
     }
 
+    footer div {
+        display: flex;
+        justify-content:space-between;  
+        align-items: center;
+
+        width: 95%;
+        height: auto;
+        
+    }
+
     footer ion-icon {
         font-size: 22px;
+
     }
 
 }

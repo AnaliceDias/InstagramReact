@@ -12,9 +12,14 @@ export default function Header(){
                 <img src="./imagens/logo.png" className="simMobile"/>
                 <div className="menu">
                     <ion-icon name="paper-plane-outline"></ion-icon>
-                    <ion-icon name="compass-outline" className="naoMobile"></ion-icon>
-                    <ion-icon name="heart-outline" className="naoMobile"></ion-icon>
-                    <ion-icon name="person-outline" className="naoMobile"></ion-icon>
+                    <div className="naoMobile"> <ion-icon  name="compass-outline" ></ion-icon></div>
+                    <div className="naoMobile"> <ion-icon  name="heart-outline" ></ion-icon></div>
+                    <div className="naoMobile">  <ion-icon  name="person-outline" ></ion-icon></div>
+                        
+                        
+                       
+                    
+                    
                 </div>
             </div>
         
